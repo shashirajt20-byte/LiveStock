@@ -26,10 +26,10 @@
 ![Listings](product_listing.png)
 
 ### 🔍 Detail Page
-![Detail](detail.png)
+![Detail](product_detail.png)
 
 ### ➕ Admin Order Managing page
-![Form](admin_mangages_orders.png)
+![Form](admin_manages_orders.png)
 
 ---
 
