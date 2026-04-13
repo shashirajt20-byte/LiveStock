@@ -17,6 +17,22 @@
 
 ---
 
+## 📸 Screenshots
+
+### 🏠 Home Page
+![Home](home_page.png)
+
+### 📋 Listings Page
+![Listings](product_listing.png)
+
+### 🔍 Detail Page
+![Detail](detail.png)
+
+### ➕ Admin Order Managing page
+![Form](admin_mangages_orders.png)
+
+---
+
 ## 🛠️ Tech Stack
 
 * **Frontend:** React / Next.js
