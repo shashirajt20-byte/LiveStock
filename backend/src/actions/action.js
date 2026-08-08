@@ -26,8 +26,8 @@ export async function signIn(req, res) {
         })
         res.cookie("token", token, {
             httpOnly: true,
-            secure: true, // prod me true
-            sameSite: "none"
+            secure: false, // prod me true
+            sameSite: "lax"
         });
         return res.json({
             success: true,
@@ -152,8 +152,8 @@ export async function signUp(req, res) {
     const token = generateToken({ id: user.id });
     res.cookie("token", token, {
       httpOnly: true,
-      secure: true, // set true in prod
-      sameSite: "none"
+      secure: false, // set true in prod
+      sameSite: "lax"
     });
 
     return res.json({ success: true, message: "Signup successful", userId: user.id });
